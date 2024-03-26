@@ -1,0 +1,105 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.Frontend{
+    background-color:#1c1b23;
+    height:230px;
+    width:180px;
+    border-color: aliceblue;
+    border-radius: 6px;
+    gap:4rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.skilled{
+   display: grid;
+   grid-template-columns:180px 180px 180px 180px;
+   gap:2rem;
+}
+.front{
+    color:rgb(139, 138, 145);
+    font-size:20px;
+   text-align: center;
+    padding-top: 11px;
+}
+.skills{
+    display: inline-block;
+    color:rgb(160, 159, 165);
+    font-size: 12px;
+    padding-left:20px;
+    padding-top:15px;
+    line-height: 20px;
+    border: 1px solid rgba(161, 134, 52, 0.679);
+    padding-right:15px;
+    padding-bottom:14px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+    gap: 1.5rem;
+    margin-left: 1px;
+    padding-left:15px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: black;
+    vertical-align: top;
+}
+#f1,#f2,#f3,#f4,#f5,#f6{
+    margin-left:5px;
+}
+
+.skills-header{
+    margin-top:90px;
+    vertical-align: top;
+    color:rgba(247, 247, 247, 0.985);
+    font-weight:bold;
+    font-size: 20px;
+    margin-left:20px;
+    margin-bottom: 25px;
+}
+.headingProject{
+    margin-top:40px;
+    vertical-align: top;
+    color:rgba(247, 247, 247, 0.985);
+    font-weight:bold;
+    font-size: 30px;
+    margin-left:20px;
+    margin-bottom: 25px;
+}
+#skills1{
+    border: 1px solid rgba(22, 163, 36, 0.678);
+}
+.hr{
+    background-color: rgba(195, 255, 0, 0.359);
+}
+.skills:nth-child(even){
+    border-color: rgb(59 130 246 / 60%);
+}
+.sidebar{
+    position: fixed;
+    left:0;
+    width:200px;
+    height: 500px;
+    background-color:transparent;
+    margin-left: 20px;
+}
+.sidebar-cnt{
+    height:75px;
+    background-color: #1c1b23;
+}
+.sidebar-cnt:hover{
+    padding-bottom: 2px;
+}
+.proj{
+    height: 250px;
+    width: 70vh;
+    border-radius: 20px;
+    background-color:#1c1b23;
+    border-radius: 30px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.proj1-theroy{
+    color:rgb(160, 159, 165);
+    background-color: #1c1b23 ;
+    text-align: left;
+}

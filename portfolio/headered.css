@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin:0px;
+    background-color: #14131a;
+    font-family: "Roboto", sans-serif;
+}
+.strt-pos{
+     height:40px;
+     width:90%;
+     display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.grn{
+  background-color:#2bd576;
+   height:15px;
+   width:15px;
+   border-radius: 50%;
+  margin-top: 5px;
+}
+.empty-header{
+    width: 76rem;
+}
+.contact{
+    height:20px;
+    width:90px;
+    margin-top: 8px;
+    border-radius:6px;
+}
+.ctct-btn{
+    border: none;
+    height:25px;
+    width:111px;
+    background-color:#2bd576;
+    border-radius:6px;
+    margin-left:50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cnt-me{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top:20px;
+    color:#ffffffa4;
+    text-align: center;
+}
+.mid-text{
+    height:600px;
+    width:1360px;
+    vertical-align: top;
+}
+.cen-div{
+    display: flex;
+    flex-direction: row;
+}
+.left-bar{
+    height:500px;
+    width:280px;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+    padding-left: 20px;
+}
+.profile1{
+    position:relative;
+    top:40px;
+    left:40px;
+}
+.name{
+    position:relative;
+    display: inline-block;
+    top:2px;
+    margin-bottom: 3px;
+    left:50px;
+    color:rgb(235, 235, 235);
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+}
+.xyz{
+    position:relative;
+    display: inline-block;
+    top:19px;
+    right:330px;
+    color:rgb(235, 235, 235);
+    font-family: "Roboto", sans-serif;
+    font-size: smaller;
+    background-color: transparent;
+
+}
+#linkedin{
+    position: relative;
+    display:inline-block;
+    top:0px;
+    right:20px;
+    bottom:15px;
+    left:190px;
+    height:25px;
+    width:190px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #1c1b23;
+    border-radius: 7px;
+    color:rgb(160, 159, 165);
+}
+.img-div{
+    margin-bottom: 30px;
+    display: block;
+}
+.img-head{
+    display: inline-block;
+}
+.bkimg{
+    margin-bottom:50px;
+}
+.bgcov{
+    height:150px;
+    width:1040px;
+    filter: blur(8px);
+   -webkit-filter: blur(8px);
+   display: inline-block;
+   position: absolute;
+}
+#insta-style,#linkedin-style,#twitter-style,#github,#lcode{
+    margin-left:20px;
+    margin-top: 40px;
+}
+.insta,.linke,.twitter,.git,.code{
+    margin-left:15px;
+    height: 20px;
+    color:rgb(139, 138, 145);
+    background-color: transparent;
+    width: 10px;
+}
+#phone{
+    padding-top: 12px;
+}
+.project{
+    margin:20px;
+    border-radius: 20px;
+}
+.proj1-img{
+    height: 250px;
+    width: 70vh;
+    border-radius: 20px;
+}
+.proj1{
+    height:50vh;
+    width:70vh;
+    border:1px solid black;
+    border-radius:20px;
+}
+.proj{
+    display: flex;
+    gap:20px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.feild{
+    color:rgb(139, 138, 145);
+}
+.institue,.duration,.marks{
+    color:rgb(160, 159, 165);
+}
+.headingEducation{
+    font-size: 30px;
+    color:#ffff;
+}

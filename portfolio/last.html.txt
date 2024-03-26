@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="headered.css">
+    <title>Document</title>
+    <style>
+        a {
+            background-color: #1c1b23;
+            text-decoration: none;
+            color: #ffffffa4;
+        }
+        .im1 {
+            height: 50%;
+            width: 100%;
+        }
+        .headi {
+            color: #ffffff;
+        }
+        .theory {
+            text-align: left;
+            padding-left: 10px;
+            color: #ffffffa4;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-div">
+        <div class="strt-pos">
+            <div class="grn"></div>
+            <div class="grn"></div>
+            <div class="empty-header"></div>
+            <div class="contact">
+                <p class="ctct-btn"><i class="fa-solid fa-phone fa-sm" style="color: #1465f0;"></i><span class="cnt-me">Contact me</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="cen-div">
+        <div class="left-bar">
+            <div class="outer">
+                <div class="sidebar">
+                    <div class="sidebar-cnt"><i class="fa-brands fa-linkedin fa-2xl" style="color: #1ad9ff;"></i><span class="linke"><a href="https://www.linkedin.com/in/satya-narayana-reddy-09apr02/">Linkedin</a></span></div>
+                    <div class="sidebar-cnt"><i class="fa-brands fa-twitter fa-2xl" style="color: #00e1ff;"></i><span class="twitter">Twitter</span></div>
+                    <div class="sidebar-cnt"><i class="fa-brands fa-instagram fa-2xl" style="color: #b110d1;"></i><span class="insta">Instagram</span></div>
+                    <div class="sidebar-cnt"><i class="fa-brands fa-github fa-2xl" style="color: #2358b3;"></i><span class="git"><a href=https://github.com/satyanarayana11">GitHub</a></span></div>
+                    <div class="sidebar-cnt"><i class="fa-solid fa-code fa-2xl" style="color: #3acfd9;"></i><span class="code"><a href="https://leetcode.com/Rorono_Zoro/">Leetcode</a></span></div>
+                    <div class="sidebar-cnt"><i class="fa-solid fa-code fa-2xl" style="color: #3acfd9;"></i><span class="code"><a href="https://codeforces.com/profile/satya_narayana">CodeForces</a></span></div>
+                    <div class="sidebar-cnt"><i class="fa-regular fa-file" style="color: #74C0FC;"></i><span class="code"><a href="https://drive.google.com/file/d/1LsMo4f5ZnK5Ipt-3fPUNDCIBjP7nZ_Ih/view?usp=drivesdk">Resume</a></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="right-bar">
+            <div class="img-div">
+                <div class="bg-img">
+                    <img src="bgcover.jpeg" class="bgcov">
+                    <img style="height: 90px;width:90px; border-radius: 50px;" src="profile.jpeg " class="profile1">
+                    <div class="name">Satya Narayana Reddy Yelamkuri</div>
+                    <div class="xyz">@satyanarayana_11</div>
+                    <i class="fa-brands fa-linkedin-in" style="color: #dedede;" id="linkedin">&nbsp;&nbsp;&nbsp;<span style="background-color: transparent"><small style="background-color: transparent;" id="ss">follow me on Linkedin</small></span></i>
+                </div>
+            </div>
+            <div class="skills-div">
+                <div class="skills-head">
+                    <div class="skills-header">What I Know...</div>
+                    <div class="skilled">
+                        <div class="Frontend" id="f1">
+                            <div class="front">Frontend</div>
+                            <hr class="horizantal">
+                            <div class="skills">HTML</div>
+                            <div class="skills">CSS</div>
+                            <div class="skills">TailwandCss</div>
+                            <div class="skills">JavaScript</div>
+                            <div class="skills">ReactJs</div>
+                        </div>
+                        <div class="Frontend" id="f2">
+                            <div class="front">Backend</div>
+                            <hr class="horizantal">
+                            <div class="skills">NodeJs</div>
+                            <div class="skills">ExpressJs</div>
+                        </div>
+                        <div class="Frontend" id="f3">
+                            <div class="front">DataBases</div>
+                            <hr class="horizantal">
+                            <div class="skills">SQL</div>
+                            <div class="skills">MongoDB</div>
+                            <div class="skills">PostgreSQL</div>
+                        </div>
+                        <div class="Frontend" id="f4">
+                            <div class="front">Programming</div>
+                            <hr class="horizantal">
+                            <div class="skills">C/C++(Advanced)</div>
+                            <div class="skills">Java(Intermediate)</div>
+                            <div class="skills">JavaScript(Intermediate)</div>
+                            <div class="skills">Python(Beginner)</div>
+                        </div>
+                        <div class="Frontend" id="f5">
+                            <div class="front">CourseWork</div>
+                            <hr class="horizantal">
+                            <div class="skills" id="skills1">Data Structure & algorithms</div>
+                            <div class="skills">Computer Networks</div>
+                            <div class="skills">Operating System</div>
+                            <div class="skills">Machine Learning</div>
+                        </div>
+                        <div class="Frontend" id="f6">
+                            <div class="front">Tools</div>
+                            <hr class="horizantal">
+                            <div class="skills">Git/GitHub</div>
+                            <div class="skills">Bash</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="headingProject">Projects</h1>
+            <div class="proj">
+                        <div class="project1">
+                            <img src="qa.jpg" class="proj1-img"><br><br>
+                            <hr>
+                            <br>
+                            <p class="proj1-theroy">The project aims to develop an application that enhances PDF document analysis and interaction. By leveraging PyPDF2 and OpenAI technologies, it extracts and analyzes text from PDF files, allowing users to pose questions and receive relevant answers. Utilizing Streamlit for its user interface, the application provides a seamless experience for uploading documents, querying content, and obtaining real-time insights, empowering users with efficient document exploration and understanding capabilities.</p>
+                        </div><br>
+                        <div class="project1">
+                            <img src="Network-Intrusion (1).jpg" class="proj1-img"><br><br>
+                            <hr><br> 
+                       <p class="proj1-theroy">The main objective of this project was to enhance network security through the effective utilization of machine learning techniques, specifically the Random Forest algorithm, for network intrusion detection. By constructing an ensemble of decision trees, we aimed to analyze complex network traffic data, distinguishing between normal and malicious patterns to proactively respond to security threats. Leveraging the algorithm’s capability to handle both categorical and continuous features, our goal was to accurately classify network packets and identify unauthorized access attempts, thereby fortifying the network against potential cyber threats.</p>
+                        </div>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="education">
+    <div class="edu-details">
+        <h1 class="headingEducation">Education</h1><br>
+        <div class="edu-header">
+            <h2 class="feild">Bachelor's Degree in Computer Science(BTECH)</h2><br>
+            <p class="institue">Gokaraju Rangaraju Institue Of Engineering And Technology(Hyderabad)</p>
+        </div>
+        <div class="edu-duration">
+            <p class="marks">CGPA:8.02</p>
+            <p class="duration">Duration: 2020-2024</p>
+        </div>
+    </div><br>
+    <div class="edu-details">
+        <div class="edu-header">
+            <h2 class="feild">Intermediate</h2><br>
+            <p class="institue">NRI Juinor College(Tirupthi)</p>
+        </div>
+        <div class="edu-duration">
+            <p class="marks">GPA:8.72</p>
+            <p class="duration">Duration: 2017 - 2019</p>
+            <p></p>
+        </div><br><br>
+        <div class="edu-details">
+            <div class="edu-header">
+                <h2 class="feild">Matriculation</h2><br>
+                <p class="institue">Narayana Etechno High School(Tirupthi)</p>
+            </div>
+            <div class="edu-duration">
+                <p class="marks"> GPA:8.7</p>
+                <p class="duration">Duration:2016-2017</p>
+
+                <p></p>
+            </div>
+    </div>
+    <br><br><br>
+</div>
+            </div>
+        </div>
+</body>
+</html>
